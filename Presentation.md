@@ -1,7 +1,21 @@
 ---
+theme: uncover
+style: |
+  section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url('image/suitman.jpeg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.1; /* 调整透明度 */
+    z-index: -1;
+  }
 marp: true
 ---
-
 ### 1. 市场问题
    - 艺术品市场的现状和挑战
      - 传统艺术品市场的高成本和复杂性
